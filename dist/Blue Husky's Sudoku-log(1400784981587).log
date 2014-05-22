@@ -1,0 +1,39 @@
+This is the error-reporting file for Blue Husky's Sudoku (version 1.0.1)
+
+
+              time of file init: Thu May 22 14:56:21 EDT 2014
+               program run from: C:\Users\Kyli Rouge\Dropbox\Java\Sudoku\dist
+program used to run the program: C:\Users\Kyli Rouge\Dropbox\Java\Sudoku\dist\BH Sudoku 1.0.1.jar
+                        OS name: Windows 8 (version 6.2)
+                OS Architecture: amd64
+           Available Processors: 4
+               Available Memory: 118.7 MB / 122.0 MB / 1.7 GB
+  Java Virtural Machine version: 24.51-b03
+           Java runtime version: 1.7.0_51-b13
+                        Country: US
+                      Time Zone: America/New_York
+                       Language: en
+                       Username: Kyli Rouge
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+<<<<< java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified) found in SudokuFrame(9, 3) on Thu May 22 14:56:21 EDT 2014
+java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sudoku.SudokuFrame.<init>(SudokuFrame.java:37)
+	at sudoku.Sudoku.main(Sudoku.java:35)
+
+>>>>> end log of java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified)
+
+<@>Updated UI (mocha), took 152,231,868 nanoseconds inside huskyRadioButtonMenuItemActionPerformed => java.awt.event.ActionEvent caused by javax.swing.JRadioButtonMenuItem[,1,34,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@3dbb034f,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Husky (SupuhWiki secondary theme)]. Other info: java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Husky (SupuhWiki secondary theme),when=1400784996295,modifiers=Button1] on javax.swing.JRadioButtonMenuItem[,1,34,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@3dbb034f,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Husky (SupuhWiki secondary theme)]
+
+<@>Updated UI (astro), took 53,391,846 nanoseconds inside astroRadioButtonMenuItemActionPerformed => java.awt.event.ActionEvent caused by javax.swing.JRadioButtonMenuItem[,1,65,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@376d7103,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Astro (good for night time)]. Other info: java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Astro (good for night time),when=1400784999866,modifiers=Button1] on javax.swing.JRadioButtonMenuItem[,1,65,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@376d7103,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Astro (good for night time)]
+
+<@>Updated UI (default), took 220,260,663 nanoseconds inside mochaRadioButtonMenuItemActionPerformed => java.awt.event.ActionEvent caused by javax.swing.JRadioButtonMenuItem[,1,100,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.metal.MetalBorders$MenuItemBorder@1624e654,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Metal (Java default)]. Other info: java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Metal (Java default),when=1400785003928,modifiers=Button1] on javax.swing.JRadioButtonMenuItem[,1,100,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.metal.MetalBorders$MenuItemBorder@1624e654,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Metal (Java default)]
+
+<@>Updated UI (mocha), took 59,316,240 nanoseconds inside mochaRadioButtonMenuItemActionPerformed => java.awt.event.ActionEvent caused by javax.swing.JRadioButtonMenuItem[,1,3,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@7c182454,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Mocha (SupuhWiki main theme)]. Other info: java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Mocha (SupuhWiki main theme),when=1400785017797,modifiers=Button1] on javax.swing.JRadioButtonMenuItem[,1,3,409x31,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@7c182454,flags=392,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=true,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Mocha (SupuhWiki main theme)]
+
+
+<<<<<Program exited properly on Thu May 22 14:58:13 EDT 2014>>>>>
+NOTE: Error file improperly closed: (error code d)

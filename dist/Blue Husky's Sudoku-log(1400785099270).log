@@ -1,0 +1,31 @@
+This is the error-reporting file for Blue Husky's Sudoku (version 1.0.1)
+
+
+              time of file init: Thu May 22 14:58:19 EDT 2014
+               program run from: C:\Users\Kyli Rouge\Dropbox\Java\Sudoku\dist
+program used to run the program: C:\Users\Kyli Rouge\Dropbox\Java\Sudoku\dist\BH Sudoku 1.0.1.jar
+                        OS name: Windows 8 (version 6.2)
+                OS Architecture: amd64
+           Available Processors: 4
+               Available Memory: 118.7 MB / 122.0 MB / 1.7 GB
+  Java Virtural Machine version: 24.51-b03
+           Java runtime version: 1.7.0_51-b13
+                        Country: US
+                      Time Zone: America/New_York
+                       Language: en
+                       Username: Kyli Rouge
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+<<<<< java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified) found in SudokuFrame(9, 3) on Thu May 22 14:58:19 EDT 2014
+java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sudoku.SudokuFrame.<init>(SudokuFrame.java:37)
+	at sudoku.Sudoku.main(Sudoku.java:35)
+
+>>>>> end log of java.io.FileNotFoundException: resources\segoescb.ttf (The system cannot find the path specified)
+
+
+<<<<<Program exited properly on Thu May 22 15:00:41 EDT 2014>>>>>
+NOTE: Error file improperly closed: (error code d)
